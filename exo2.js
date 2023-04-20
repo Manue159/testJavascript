@@ -17,5 +17,5 @@ function flattenIntegers(arr) {
     return flattened;
   }
 
-  var result = flattenIntegers([[[8], 3], 0, 2, ['bar'], [], [5, [3, 6]]]);
-  console.log(result);
+var result = flattenIntegers([[[8], 3], 0, 2, ['bar'], [], [5, [3, 6]]]);
+console.log(result);

@@ -1,8 +1,3 @@
-var document = "index.html";
-var tagName = "p";
-var text = "welcome";
-
-
 function includes(document, tagName, text) {
     const elements = document.getElementsByTagName(tagName);
     for (let i = 0; i < elements.length; i++) {
@@ -13,4 +8,4 @@ function includes(document, tagName, text) {
     return false;
 }
 
-includes(document, "p", "welcome");
+includes(document.body, "p", "welcome");
